@@ -7,7 +7,7 @@ const sheltersRouter = require('./routes/shelter');
 const app = express();
 app.use(express.json());
 
-app.use(cors({origin: 'http://localhost:3001'}));
+app.use(cors({origin: 'https://backend-admin-panel.herokuapp.com'}));
 
 app.use('/shelters', sheltersRouter);
 
